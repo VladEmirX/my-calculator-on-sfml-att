@@ -21,4 +21,6 @@
     <PackageReference Include="SFML.Window" Version="2.6.0" />
   </ItemGroup>
 
+  </PropertyGroup>
+
 </Project>
