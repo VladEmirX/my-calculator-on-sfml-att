@@ -3,12 +3,24 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>sfml_att_3</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PublishAot>true</PublishAot>
     <InvariantGlobalization>true</InvariantGlobalization>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+	<LangVersion>preview</LangVersion>
+	<RootNamespace />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CSFML" Version="2.6.1" />
+    <PackageReference Include="SFML.Audio" Version="2.6.0" />
+    <PackageReference Include="SFML.Graphics" Version="2.6.0" />
+    <PackageReference Include="SFML.Net" Version="2.6.0" />
+    <PackageReference Include="SFML.System" Version="2.6.0" />
+    <PackageReference Include="SFML.Window" Version="2.6.0" />
+  </ItemGroup>
+
   </PropertyGroup>
 
 </Project>
